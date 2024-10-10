@@ -1,0 +1,556 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  body {
+    padding-bottom: 100px; /* Space for the footer */
+  }
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 60px;
+  /* Add padding to make room for the footer */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Search bar styling */
+.search-container {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 70px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  transition: border-color 0.3s;
+}
+
+.search-container input[type="text"]:focus {
+  border-color: #4CAF50;
+  /* Highlight border on focus */
+  outline: none;
+  /* Remove default outline */
+}
+
+.search-container button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  /* Rounded corners for the button */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.search-container button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+  /* Slightly enlarge the button on hover */
+}
+
+.search-container button:active {
+  transform: scale(0.95);
+  /* Slightly shrink the button when pressed */
+}
+
+
+.headlines {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.headline {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+  /* Add space between the topic headlines and display headlines */
+}
+
+.scrollable-content {
+  max-height: 710px; /* Set the height as per your design */
+  overflow-y: scroll; /* Ensures content can still scroll */
+  padding: 10px;
+  border: none; /* Removes the border */
+}
+
+/* Hide the scrollbar for Webkit browsers (Chrome, Safari, Edge) */
+.scrollable-content::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Hide scrollbar for other browsers (Firefox) */
+.scrollable-content {
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollable-content:focus {
+  outline: none; /* Hide the outline when focused */
+}
+
+
+
+.titleSt {
+  margin-bottom: 30px;
+  /* Adds space below the title */
+  font-weight: bold;
+  /* Makes the text bold */
+  font-family: 'Patrick Hand', cursive;
+  /* Handwritten font */
+  font-size: 24px;
+  /* Adjust size as needed */
+  color: #333;
+  /* You can change the color if desired */
+}
+
+/* Left section for headlines */
+.left {
+  flex: 0 0 20%;
+  padding-right: 15px;
+  max-height: auto;
+  position: relative;
+  margin-top: 20px;
+  /* Adds space before the vertical line appears */
+  border-right: 1px solid #cccccc;
+  /* Vertical line starts here */
+}
+
+/* Placeholder sections */
+.middle {
+  flex: 0 0 40%;
+  position: relative;
+  margin-top: 20px;
+  /* Adds space before the vertical line appears */
+  border-right: 1px solid #cccccc;
+  /* Vertical line starts here */
+}
+
+/* .right {
+  flex: 0 0 40%;
+  position: relative;
+  margin-top: 20px; 
+  padding: 10px; 
+  border-left: 2px solid #333; 
+} */
+
+/* Individual headline items */
+#headlineContent .headline-item,
+#newsContent .news-item,
+#bhutaneseNewsContent .headline-item {
+  font-size: 14px;
+  margin-bottom: 20px;
+  /* Increased margin for spacing */
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Title image container */
+.title-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.banner-image {
+  max-width: 270px;
+  height: auto;
+  margin-right: 0;
+  position: relative;
+  top: -15px;
+}
+
+.news-image {
+  max-width: 80%;
+  /* Ensure images don't exceed the width of their container */
+  height: auto;
+  /* Maintain aspect ratio */
+  margin: 10px 0;
+  /* Add some spacing */
+}
+
+/* Read more styling */
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007BFF;
+  /* Link color */
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+  /* Underline on hover */
+}
+
+.result-item {
+  margin: 20px auto;
+  /* Center the result items */
+  padding: 15px;
+  border: 1px solid #ddd;
+  /* Optional border */
+  border-radius: 8px;
+  /* Rounded corners */
+  background-color: #f9f9f9;
+  /* Light background for better readability */
+  max-width: 1000px;
+  /* Max width for content */
+}
+
+.result-content {
+  text-align: left;
+  /* Align text to the left for easier reading */
+  line-height: 1.6;
+  /* Increase line height for readability */
+  text-align: center;
+}
+
+.result-content p {
+  margin-bottom: 10px;
+  /* Space between paragraphs */
+  font-size: 16px;
+  /* Font size for body text */
+  color: #333;
+  /* Darker color for better contrast */
+  max-width: 80%;
+  /* Limit paragraph width for smaller chunks */
+  margin-left: auto;
+  /* Center paragraphs */
+  margin-right: auto;
+  /* Center paragraphs */
+}
+
+.result-image {
+  max-width: 100%;
+  /* Ensure image is responsive */
+  height: auto;
+  /* Maintain aspect ratio */
+  margin: 10px 0;
+  /* Spacing above and below the image */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.toggle-menu {
+  display: none;
+/* Adjust margin if needed */
+}
+
+
+
+
+/* Mobile styles */
+@media (max-width: 768px) {
+
+  .toggle-menu {
+    display: block;
+    cursor: pointer;
+    font-size: 30px; /* Adjust size as needed */
+    margin: 10px; /* Adjust margin if needed */
+    text-align: left;
+    z-index: 1000;
+    
+    
+    color: #fdfafa; /* Icon color */
+    width: 100%; /* Full width */
+    height: 10px;
+    left: 10px;
+    padding: 15px 0; /* Adjust padding for height */
+  }
+  
+  .mobile-nav {
+    display: none; /* Hidden by default */
+    background-color: #2e2d2d;
+    position: absolute;
+    top: 80px; /* Adjust based on your header height */
+    left: 0;
+    width: 100%; /* Full width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: max-height 0.3s ease-out; /* Add transition for smooth opening */
+    z-index: 999;
+  }
+  
+  .mobile-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mobile-nav ul li {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .mobile-nav ul li a {
+    text-decoration: none;
+    color: #fdfafa;
+  }
+
+  .search-container {
+    flex-direction: column;
+    text-align: center;
+  
+  }
+
+  #search-input {
+    width: 70%; /* Full width for mobile */
+    margin-bottom: 10px;
+  }
+
+  #search-button {
+    width: 20%; /* Full width for mobile */
+    margin-left: 0;
+  }
+
+  .title-container {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 250px;
+    text-align: center;
+    
+  }
+
+  .banner-image {
+    width: 100%;
+    max-width: 600px; /* Limits the max width of the image */
+    height: auto;
+   
+    float: right; /* Float the image to the right */
+  }
+
+  .headlines {
+    display: block; /* Stack title and headlines for mobile */
+    padding: 0 10px;
+  }
+
+  .headline {
+    display: block; /* Display the title and headlines separately */
+    text-align: left;
+    margin-bottom: 10px; /* Space between the title and the headlines */
+  }
+
+  .titleSt {
+    font-size: 22px; /* Adjust font size for mobile */
+    font-weight: bold;
+    margin-bottom: 5px; /* Space below the title */
+  }
+
+  #headlineContent {
+    display: flex;
+    flex-wrap: wrap; /* Allow headlines to wrap to the next line */
+    gap: 10px; /* Add space between headlines */
+  }
+
+  /* Style individual headlines */
+  .headline-item {
+    flex: 1 1 calc(50% - 10px); /* Each headline takes up 50% of the width */
+    font-size: 16px;
+    color: #222121;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    /* Stack the nav items vertically */
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+    /* Adjust margin for vertical spacing */
+  }
+
+  main {
+    padding: 10px;
+    /* Reduce padding on mobile */
+  }
+
+  .search-container {
+    position: static;
+    /* Remove absolute positioning */
+    width: 100%;
+    /* Full width for mobile */
+    margin-top: 10px;
+    /* Add some space above the search bar */
+  }
+
+  .search-container input[type="text"] {
+    width: 100%;
+    /* Full width for input */
+  }
+
+  .headlines {
+    flex-direction: column;
+    /* Stack headlines vertically */
+  }
+
+  .left,
+  .middle {
+    flex: 0 0 100%;
+    /* Full width for mobile */
+    border-right: none;
+    /* Remove borders for mobile */
+  }
+
+  .titleSt {
+    font-size: 20px;
+    /* Adjust title size for mobile */
+  }
+
+  #headlineContent .headline-item,
+  #newsContent .news-item,
+  #bhutaneseNewsContent .headline-item {
+    font-size: 12px;
+    /* Reduce font size for mobile */
+  }
+
+  .result-item {
+    padding: 10px;
+    /* Reduce padding for mobile */
+  }
+
+  .result-content p {
+    font-size: 14px;
+    /* Adjust paragraph font size for mobile */
+  }
+  body {
+    padding-bottom: 80px; /* Space for the footer */
+  }
+
+  /* Center the "Read More" link */
+.read-more {
+  display: inline-block; /* To ensure the link takes up only as much space as needed */
+  color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.read-more:hover {
+  background-color: white;
+}
+
+.headline-item {
+  margin-bottom: 30px;
+  text-align: center; /* Center-align the content */
+  max-width: 600px; /* Optional: limit the width of each news item */
+  margin-left: auto; /* To center the item horizontally */
+  margin-right: auto;
+}
+
+
+
+
+}
+
+
+/* Loading Indicator Styles */
+.loading-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 999;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Hide loader initially */
+.loading-indicator {
+  display: none;
+}
+
+
+
+
+
+
+

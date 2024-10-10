@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+  margin-bottom: 70px;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline; /* Inline display for horizontal menu */
+  margin: 0 15px; /* Margin between menu items */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.weather-container {
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Space between sections */
+  gap: 20px; /* Gap between weather sections */
+  max-width: 1200px; /* Maximum width of the container */
+  margin: 0 auto; /* Center the container */
+}
+
+.weather-section {
+  flex: 1; /* Equal space for each section */
+  background-color: #ffffff; /* White background for sections */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside sections */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+.weather-section h2 {
+  color: #333; /* Header color */
+  margin-bottom: 15px; /* Space below header */
+}
+
+.weather-section label {
+  display: block; /* Block display for labels */
+  margin-bottom: 10px; /* Space below labels */
+  font-weight: bold; /* Bold labels */
+}
+
+.weather-section select {
+  padding: 10px; /* Padding for select input */
+  font-size: 16px; /* Font size for select input */
+  margin-bottom: 20px; /* Space below select input */
+}
+
+.weather-section img {
+  max-width: 100px; /* Max width for images */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Block display for images */
+  margin: 10px 0; /* Space above and below images */
+}
+
+footer {
+  background-color: #333; /* Footer background */
+  color: white; /* Footer text color */
+  text-align: center; /* Center text */
+  padding: 10px 0; /* Padding inside footer */
+  position: fixed; /* Fixed position at the bottom */
+  width: 100%; /* Full width */
+  height: 5%; /* Fixed height */
+  bottom: 0; /* Align to bottom */
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 768px) {
+  nav ul li {
+      display: block; /* Stack menu items vertically */
+      margin: 10px 0; /* Vertical margin */
+  }
+
+  .weather-container {
+      flex-direction: column; /* Stack weather sections vertically */
+      gap: 10px; /* Reduce gap between sections */
+  }
+
+  .weather-section {
+      padding: 15px; /* Reduce padding for mobile */
+  }
+
+  .weather-section select {
+      font-size: 14px; /* Smaller font size for select */
+  }
+
+  footer {
+      font-size: 14px; /* Smaller footer text size */
+  }
+}

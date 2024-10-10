@@ -1,0 +1,150 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif; /* Modern and readable font */
+    line-height: 1.6; /* Improve readability */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light grey background */
+}
+
+/* Header Styling */
+header {
+    background: #333; /* Dark background for the header */
+    color: #fff; /* White text color */
+    padding: 10px 0; /* Padding around the header */
+    text-align: center; /* Center-align header content */
+}
+
+header nav ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin: 0 10px; /* Space between links */
+}
+
+header nav ul li a {
+    color: #fff; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text for links */
+}
+
+header nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Style for articles */
+.article {
+    background-color: #fff; /* White background for articles */
+    border: 1px solid #ddd; /* Light border around articles */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside articles */
+    margin-bottom: 20px; /* Space between articles */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    overflow: hidden; /* Ensure no overflow issues */
+    text-align: center; /* Center-align text and headings */
+}
+
+/* Ensure images are properly sized */
+.article-image {
+    max-width: 55%; /* Ensure the image fits within the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 10px; /* Space above the image */
+    margin-bottom: 20px; /* Space below the image */
+    display: block; /* Center image horizontally */
+    margin-left: auto; /* Center image horizontally */
+    margin-right: auto; /* Center image horizontally */
+    width: 90%; /* Adjust width to make the image larger */
+}
+
+/* Ensure text is properly displayed */
+.article p {
+    white-space: pre-wrap; /* Preserve formatting and line breaks */
+    overflow: auto; /* Add scroll if necessary */
+    margin: 0; /* Remove default margins for consistency */
+    padding: 0; /* Remove default padding for consistency */
+    line-height: 1.6; /* Improve readability */
+    text-align: left;
+}
+
+/* Headline styling */
+.article h3 {
+    color: #333; /* Darker color for headlines */
+    font-size: 1.2em; /* Slightly larger font for headlines */
+    margin-top: 10px; /* Space above headlines */
+    margin-bottom: 10px; /* Space below headlines */
+}
+
+/* Title styling */
+.article h2 {
+    color: #222; /* Slightly darker color for titles */
+    font-size: 1.5em; /* Larger font size for titles */
+    margin-top: 10px; /* Space above titles */
+    margin-bottom: 10px; /* Space below titles */
+}
+
+/* Style for the main heading */
+main h1 {
+    text-align: center; /* Center-align the heading */
+    margin-top: 20px; /* Space above the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 2.5em; /* Larger font size for main heading */
+    color: #333; /* Dark color for better contrast */
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    /* Header adjustments */
+    header {
+        padding: 15px 0; /* Increased padding for better touch target */
+    }
+
+    header nav ul li {
+        display: block; /* Stack navigation items vertically */
+        margin: 5px 0; /* Space between links */
+    }
+
+    /* Article styling */
+    .article {
+        padding: 15px; /* Adjust padding for smaller screens */
+        margin-bottom: 15px; /* Reduce margin between articles */
+    }
+
+    /* Headline and title adjustments */
+    .article h3 {
+        font-size: 1.5em; /* Increase headline size for readability */
+    }
+
+    .article h2 {
+        font-size: 1.8em; /* Increase title size for readability */
+    }
+
+    /* Main heading adjustments */
+    main h1 {
+        font-size: 2em; /* Adjust main heading size for mobile */
+        margin-top: 10px; /* Adjust space above the heading */
+        margin-bottom: 10px; /* Adjust space below the heading */
+    }
+
+    /* Image adjustments */
+    .article-image {
+        
+            max-width: 95%; /* Ensure the image fits within the container */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 10px; /* Rounded corners */
+            margin-top: 10px; /* Space above the image */
+            margin-bottom: 20px; /* Space below the image */
+            display: block; /* Center image horizontally */
+            margin-left: auto; /* Center image horizontally */
+            margin-right: auto; /* Center image horizontally */
+            width: 90%; /* Adjust width to make the image larger */
+        
+    }
+    body {
+        padding-bottom: 80px; /* Space for the footer */
+      }
+}
