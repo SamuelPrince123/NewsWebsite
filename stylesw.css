@@ -1,0 +1,97 @@
+/* News Container Layout */
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: repeat(5, auto); /* Automatically size rows based on content */
+    gap: 20px; /* Space between grid items */
+    padding: 20px; /* Padding around the grid */
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Style each news item */
+.news-item {
+    display: flex; /* Flexbox for centering content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Padding inside items */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    min-height: 200px; /* Set a minimum height to prevent overlapping */
+    position: relative; /* Required for potential overlapping adjustments */
+}
+
+/* Specific styles for each container */
+.news-item.container-1 {
+    background-color: #ff6347; /* Tomato */
+    font-size: 1.2em;
+}
+
+.news-item.container-2 {
+    background-color: #4682b4; /* Steel Blue */
+    font-size: 1.2em;
+}
+
+.news-item.container-3 {
+    background-color: #32cd32; /* Lime Green */
+    font-size: 1.2em;
+}
+
+.news-item.container-4 {
+    background-color: #ff4500; /* Orange Red */
+    font-size: 1.2em;
+}
+
+.news-item.container-5 {
+    background-color: #6a5acd; /* Slate Blue */
+    font-size: 1.2em;
+}
+
+.news-item.container-6 {
+    background-color: #20b2aa; /* Light Sea Green */
+    font-size: 1.2em;
+}
+.news-item.container-10 {
+    background-color: #00fa9a; /* Medium Spring Green */
+    font-size: 1.2em;
+}
+
+.news-item.container-7 {
+    background-color: #ffb6c1; /* Light Pink */
+    font-size: 1.2em;
+}
+
+.news-item.container-8 {
+    background-color: #adff2f; /* Green Yellow */
+    font-size: 1.2em;
+}
+
+.news-item.container-9 {
+    background-color: #f08080; /* Light Coral */
+    font-size: 1.2em;
+}
+
+
+
+/* Hover effect for interaction */
+.news-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    background-color: rgba(0, 0, 0, 0.1); /* Background change on hover */
+}
+/* Responsive styles for mobile screens */
+@media (max-width: 768px) {
+    .news-container {
+        grid-template-columns: 1fr; /* Change to single column on mobile */
+        grid-template-rows: repeat(auto-fill, 200px); /* Allow rows to fill automatically */
+    }
+
+    .news-item {
+        padding: 10px; /* Reduce padding for mobile */
+        min-height: 150px; /* Adjust minimum height for mobile */
+        font-size: 1em; /* Adjust font size for better readability */
+    }
+}
+

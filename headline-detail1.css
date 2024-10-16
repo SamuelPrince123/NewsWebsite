@@ -1,0 +1,164 @@
+/* headline-detail1.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-bottom: 80px; /* Add extra space at the bottom */
+    color: #333;
+    background-color: #f0f0f0; /* Light background */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center all content */
+    min-height: 100vh; /* Ensure body takes full height */
+    text-align: center;
+}
+
+header {
+    background-color: #333; /* Dark background for header */
+    width: 100%; /* Full width */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    text-align: center; /* Center the navigation links */
+}
+
+nav ul li {
+    display: inline; /* Display links inline */
+    margin: 0 15px; /* Space between links */
+}
+
+nav ul li a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold links */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center main content */
+    width: 100%; /* Full width */
+}
+
+/* Main content container */
+.content-container {
+    width: 70%; /* 70% width for desktop screens */
+    max-width: 800px; /* Max width to prevent excessive stretching */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Add padding for better spacing */
+    background-color: #fff; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+    text-align: center; /* Center align the title */
+    margin: 20px 0; /* Space above and below the title */
+}
+
+.news-item {
+    border-bottom: 1px solid #ddd; /* Divider between news items */
+    padding: 15px 0; /* Padding for each news item */
+    text-align: center; /* Center text inside news item */
+}
+
+.news-item:last-child {
+    border-bottom: none; /* Remove bottom border for the last item */
+}
+
+.news-item h2 {
+    font-size: 20px; /* Title size */
+    margin: 0 0 10px; /* Space below title */
+    color: #2c3e50; /* Darker color for the title */
+}
+
+.news-item h3 {
+    font-size: 18px; /* Headline size */
+    margin: 0 0 10px; /* Space below headline */
+    color: #34495e; /* Darker color for the headline */
+}
+
+.news-item p {
+    font-size: 14px; /* Regular text size */
+    line-height: 1.5; /* Improved readability */
+    margin: 0 0 10px; /* Space below paragraphs */
+}
+
+.news-image {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Rounded corners for images */
+    margin: 10px auto; /* Center images with margin */
+    display: block; /* Make sure image is a block element */
+}
+
+
+button {
+    background-color: #3498db; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+}
+
+
+
+.news-separator {
+    border: 0; /* Remove default border */
+    height: 1px; /* Set height for the line */
+    background-color: #202020; /* Light color for the line */
+    margin: 20px 0; /* Space above and below the line */
+}
+
+.read-more-link {
+    display: inline-block;
+    margin-top: 10px; /* Space above the link */
+    color: blue; /* Blue color for the link */
+    text-decoration: underline; /* Underline the link */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.read-more-link:hover {
+    text-decoration: none; /* Remove underline on hover for a cleaner look */
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 768px) {
+    .content-container {
+        width: 90%; /* Full width on mobile screens */
+        padding: 15px; /* Reduced padding for mobile */
+    }
+
+    h1 {
+        font-size: 24px; /* Smaller font size for header */
+        margin: 15px 0; /* Reduced margin */
+    }
+
+    .news-item h2 {
+        font-size: 18px; /* Smaller title size */
+    }
+
+    .news-item h3 {
+        font-size: 16px; /* Smaller headline size */
+    }
+
+    .news-item p {
+        font-size: 12px; /* Smaller text size */
+    }
+
+    button {
+        padding: 8px 12px; /* Reduced padding for buttons */
+    }
+
+    .news-separator {
+        margin: 10px 0; /* Reduced spacing around the separator */
+    }
+}

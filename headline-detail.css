@@ -1,0 +1,115 @@
+/* headline-detail.css */
+
+body {
+  font-family: Arial, sans-serif;
+  
+  padding-bottom: 180px; /* Add extra space at the bottom */
+  color: #333;
+  background-color: white; /* Light background */
+  
+  
+  align-items: center; /* Center all content */
+  min-height: 100vh; /* Ensure body takes full height */
+  text-align: center;
+  
+}
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+  
+ /* General headline styles */
+#headline-details {
+  max-width: 1000px;
+  margin: 20px auto;
+ 
+  background-color: white;
+ 
+}
+
+#headline-details h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+#detail-content {
+  display: flex;
+  flex-direction: column; /* Default vertical layout */
+  gap: 10px;
+}
+
+.news-detail-image {
+  max-width: 80%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Mobile-specific styles to make headlines horizontal */
+@media (max-width: 768px) {
+
+header {
+  background-color: #333; /* Dark background for header */
+  width: 100%; /* Full width */
+  position: relative; /* For positioning the toggle menu */
+  padding: 10px 0; /* Padding for header */
+}
+
+/* Toggle Menu Styles */
+.toggle-menu {
+  font-size: 30px; /* Size of toggle menu icon */
+  color: white; /* Color of toggle menu */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-left: 15px; /* Space on the left */
+}
+
+.mobile-nav {
+  display: none; /* Initially hide mobile navigation */
+  background-color: #333; /* Same background as header */
+  position: absolute; /* Absolute positioning for dropdown */
+  top: 60px; /* Position below the header */
+  left: 0; /* Align to the left */
+  right: 0; /* Extend to the right */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+
+
+
+
+
+
+
+#headline-details h1 {
+  font-size: 24px; /* Adjust title size */
+  margin: 20px 0; /* Space above and below the title */
+}
+
+
+
+/* Responsive Image Styles */
+.news-detail-image {
+  max-width: 265px; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 4px; /* Rounded corners for images */
+  text-align: center;
+}
+
+/* Footer Styles */
+
+
+}
+footer {
+  margin-top: auto; /* Push footer to bottom */
+  padding: 10px 0;
+  text-align: center;
+  background-color: #333; /* Footer background color */
+  color: white; /* Footer text color */
+}
+
+

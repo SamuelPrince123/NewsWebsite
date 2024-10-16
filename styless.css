@@ -1,0 +1,165 @@
+/* Existing CSS for Headlines, Bhutanese News, and World News */
+.titleSt {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* New CSS for World Scope and Ads */
+.extra-content-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-bottom: 20px; /* Add padding to the bottom */
+}
+
+.world-scope, .ads-block {
+  flex: 1;
+  margin: 10px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 40%;
+}
+
+.world-scope {
+  background-color: #e3f2fd; /* Light blue for World Scope */
+}
+
+.ads-block {
+  background-color: #fffde7; /* Light yellow for Ads */
+}
+
+.world-scope .section-title, .ads-block .section-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Adjusting image sizes */
+.world-scope img {
+  max-width: 98%; /* Make images in World Scope smaller */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Adjusting video sizes in Ads block */
+.ads-block video {
+  max-width: 50% !important; /* Force the size */
+  height: auto !important; /* Maintain aspect ratio */
+  margin: 0 auto !important; /* Center the video */
+  display: block !important; /* Ensure it's treated as a block element for centering */
+}
+footer {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between the copyright and icon */
+  align-items: center; /* Vertically center the items */
+  padding: 10px; /* Add padding around the footer */
+}
+
+
+
+/* Facebook */
+.social-icons {
+  display: flex; /* Align icon and text */
+  justify-content: center; /* Align items to the right */
+  align-items: center; /* Center items vertically */
+  margin-right: 50px; /* Margin to the right to move the icon left */
+}
+
+.pp {
+  margin-right: 15px; /* Space between text and icon */
+  color: white; /* Optional: Facebook blue color for text */
+}
+
+/* Facebook Icon Style */
+.social-icons a {
+  color: #3b5998; /* Facebook blue color */
+  font-size: 24px; /* Icon size */
+  text-decoration: none; /* Remove underline */
+}
+
+.social-icons a:hover {
+  color: #1a1a1a; /* Darker color on hover */
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+  footer {
+      display: flex; /* Make footer a flex container */
+      flex-direction: column; /* Stack elements on small screens */
+      align-items: flex-start; /* Align items to the start */
+      padding-left: 10px; /* Add padding to the left */
+  }
+  .social-icons {
+      justify-content: center; /* Align icon and text to the left */
+      margin-top: 10px; /* Space above the icon */
+  }
+  .pp {
+      margin-right: 5px; /* Space between text and icon for mobile */
+  }
+}
+
+
+
+
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .extra-content-container {
+    flex-direction: column; /* Stack elements vertically */
+  }
+
+  .world-scope, .ads-block {
+    max-width: 100%; /* Full width for mobile */
+    margin: 0; /* Remove margin to avoid spacing issues */
+  }
+
+  .ads-block {
+    margin-top: 20px; /* Add some space above ads block */
+  }
+
+  /* Additional adjustments to prevent footer overlap */
+  body {
+    padding-bottom: 100px; /* Space for the footer */
+  }
+
+  
+}
+
+/* Loading Indicator Styles */
+.loading-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 999;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Hide loader initially */
+.loading-indicator {
+  display: none;
+}
+

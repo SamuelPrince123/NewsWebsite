@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World News</title>
+  <link rel="stylesheet" href="styless.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="stylesw.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <style>
+    /* Loading spinner styles */
+    #loadingIndicator {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      margin: 20px auto;
+    }
+
+    .spinner {
+      border: 4px solid rgba(0, 0, 0, 0.1);
+      border-left-color: #2196f3; /* Blue color for spinner */
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+ /* Footer Styles */
+ footer {
+    display: none;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  footer.show-footer {
+    display: block;
+  }
+
+  /* Other styles */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .content {
+    height: 1500px; /* Example content to make page scrollable */
+  }
+
+  .social-icons {
+    margin-top: 10px;
+  }
+
+  .pp {
+    margin-bottom: 5px;
+  }
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="toggle-menu" id="toggleMenu">☰</div> <!-- Slide Toggle Icon -->
+    <nav id="mobileNav" class="mobile-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bhutanese-news.html">Bhutanese News</a></li>
+        <li><a href="bhutanese-jobs.html">Bhutanese Jobs</a></li>
+        <li><a href="bhutan-future-scope.html">Bhutan's Future Scope</a></li>
+        <li><a href="world-news.html">World News</a></li>
+        <li><a href="world-future-scope.html">World's Future Scope</a></li>
+        <li><a href="weather.html">Weather</a></li>
+        <li><a href="ads.html">Ads</a></li>
+        <li><a href="games.html">games</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>World News</h1>
+    <div id="loadingIndicator">
+      <div class="spinner"></div>
+    </div>
+    <div class="news-container" id="newsContainer">
+      <a href="technology-innovation.html" class="news-item container-1">Technology and Innovation</a>
+      <a href="finance-business.html" class="news-item container-2">Finance and Business</a>
+      <a href="climate.html" class="news-item container-3">Climate Change</a>
+      <a href="education.html" class="news-item container-4">Education and Learning</a>
+      <a href="health.html" class="news-item container-5">Health</a>
+      <a href="sports.html" class="news-item container-6">Sports</a>
+      <a href="world-crises.html" class="news-item container-10">World Crises</a>
+      <a href="social-issues.html" class="news-item container-7">Social Issues</a>
+      <a href="entertainment.html" class="news-item container-8">Entertainment</a>
+      <a href="crime-law.html" class="news-item container-9">Crime and Law</a>
+      <a href="archaeology.html" class="news-item container-10">Archaeology and History</a>
+    </div>
+  </main>
+
+
+
+  
+  <footer>
+    <p>© 2024 News Website. All rights reserved.</p>
+    <!-- Facebook Icon -->
+    <div class="social-icons">
+      <p class="pp">Follow us here :</p>
+      <a href="https://www.facebook.com/profile.php?id=61566709991254" target="_blank" aria-label="Facebook Group">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener("scroll", function() {
+      const footer = document.querySelector("footer");
+      if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
+        footer.classList.add("show-footer");
+      }
+    });
+  </script>
+
+  <!-- JavaScript file for fetching world news -->
+  <script src="scirptAds.js"></script>
+</body>
+</html>
