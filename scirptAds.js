@@ -33,10 +33,18 @@ document.getElementById("toggleMenu").onclick = function () {
 const videoUrls = [
   "https://www.youtube.com/watch?v=Au3QBbuyc2M",
   "https://www.youtube.com/watch?v=ad79nYk2keg",
-  "https://www.youtube.com/watch?v=svf95f4kjDQ",
+  "https://www.youtube.com/watch?v=7fS42KwfZhw",
   "https://www.youtube.com/watch?v=yOgAbKJGrTA",
   "https://www.youtube.com/watch?v=z9SW5HlTGXA",
   "https://www.youtube.com/watch?v=tZE_fQFK8EY",
+  "https://www.youtube.com/watch?v=i9xe7N_OEXs",
+  "https://www.youtube.com/watch?v=F9F0HuHIjTw",
+  "https://www.youtube.com/watch?v=n6lRdH1EzIo",
+  "https://www.youtube.com/watch?v=ZyYqyYAKGC0",
+  "https://www.youtube.com/watch?v=hZW5XA8cLuE",
+  "https://www.youtube.com/watch?v=-sB12gk9ESA",
+  "https://www.youtube.com/watch?v=g_1oiJqE3OI",
+  "https://www.youtube.com/watch?v=UzIZW2m5CfY",
 ];
 
 // Shuffle the array
