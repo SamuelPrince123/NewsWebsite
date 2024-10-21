@@ -47,6 +47,16 @@ const videoData = [
     imageUrl: "./NewsImage/bbc.jpg", // Local image path
   },
   {
+    url: "https://www.youtube.com/@ArirangCoKrArirangNEWS", // CNN Channel URL
+    title: "Arirang News",
+    imageUrl: "./NewsImage/arirang.jpg", // Local image path
+  },
+  {
+    url: "https://www.youtube.com/@channelnewsasia", // CNN Channel URL
+    title: "CNA",
+    imageUrl: "./NewsImage/cna.jpg", // Local image path
+  },
+  {
     url: "https://www.youtube.com/@aljazeeraenglish", // CNN Channel URL
     title: "Al Jazeera English",
     imageUrl: "./NewsImage/aljazeera.jpg", // Local image path
@@ -85,7 +95,7 @@ const videoData = [
   {
     url: "https://www.youtube.com/@NBCNews", // CNN Channel URL
     title: "NBC News",
-    imageUrl: "./NewsImage/ndtv.png", // Local image path
+    imageUrl: "./NewsImage/nbc.png", // Local image path
   },
 ];
 
