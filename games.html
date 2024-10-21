@@ -72,22 +72,7 @@
             }
         }
         /* Loading spinner styles */
-    #loadingIndicator {
-      display: none;
-      justify-content: center;
-      align-items: center;
-      height: 50px;
-      margin: 20px auto;
-    }
-
-    .spinner {
-      border: 4px solid rgba(0, 0, 0, 0.1);
-      border-left-color: #4d7eb6; /* Green color for spinner */
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      animation: spin 1s linear infinite;
-    }
+    
 
     @keyframes spin {
       0% {
@@ -145,6 +130,7 @@
         <nav id="mobileNav" class="mobile-nav">
           <ul>
             <li><a href="index.html">Home</a></li>
+            <li><a href="Live.html">Live</a></li>
             <li><a href="bhutanese-news.html">Bhutanese News</a></li>
             <li><a href="bhutanese-jobs.html">Bhutanese Jobs</a></li>
             <li><a href="bhutan-future-scope.html">Bhutan's Future Scope</a></li>
@@ -158,6 +144,11 @@
       </header>
     <h1>Game Hub</h1>
     <div class="container">
+       <!-- Loader Spinner -->
+    <div id="loadingIndicator" class="loading-indicator">
+      <p>Loading the latest news...</p>
+      <div class="spinner"></div>
+    </div>
         <div class="category">
             <div class="category-title">Memory Card Game</div>
             <a href="game1.html" class="category-link">Play Memory Card Game</a>
@@ -211,7 +202,7 @@
           }
         });
       </script>
-        <script type="module" src="scriptJobs.js"></script>
+         <script type="module" src="script.js"></script>
 
 </body>
 </html>
