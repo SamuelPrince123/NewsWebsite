@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "sports",
     "technology",
     "wellness_and_health",
+    "political_events",
   ]);
 });
 

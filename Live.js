@@ -62,6 +62,16 @@ const videoData = [
     imageUrl: "./NewsImage/aljazeera.jpg", // Local image path
   },
   {
+    url: "https://www.youtube.com/@NDTV", // CNN Channel URL
+    title: "NDTV",
+    imageUrl: "./NewsImage/ndtv.png", // Local image path
+  },
+  {
+    url: "https://www.youtube.com/@WION", // CNN Channel URL
+    title: "WION",
+    imageUrl: "./NewsImage/wion.png", // Local image path
+  },
+  {
     url: "https://www.youtube.com/@FoxNews", // CNN Channel URL
     title: "Fox News",
     imageUrl: "./NewsImage/foxnews.png", // Local image path
@@ -85,11 +95,6 @@ const videoData = [
     url: "https://www.youtube.com/@markets", // CNN Channel URL
     title: "Bloomberg Television",
     imageUrl: "./NewsImage/bloombergnews.jpg", // Local image path
-  },
-  {
-    url: "https://www.youtube.com/@NDTV", // CNN Channel URL
-    title: "NDTV",
-    imageUrl: "./NewsImage/ndtv.png", // Local image path
   },
 
   {

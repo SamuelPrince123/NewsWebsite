@@ -26,53 +26,65 @@
 
 /* Specific styles for each container */
 .news-item.container-1 {
-    background-color: #ff6347; /* Tomato */
+    background-color: #ff7f50; /* Coral */
     font-size: 1.2em;
 }
 
 .news-item.container-2 {
-    background-color: #4682b4; /* Steel Blue */
+    background-color: #6495ed; /* Cornflower Blue */
     font-size: 1.2em;
 }
 
 .news-item.container-3 {
-    background-color: #32cd32; /* Lime Green */
+    background-color: #3cb371; /* Medium Sea Green */
     font-size: 1.2em;
 }
 
 .news-item.container-4 {
-    background-color: #ff4500; /* Orange Red */
+    background-color: #ff8c00; /* Dark Orange */
     font-size: 1.2em;
 }
 
 .news-item.container-5 {
-    background-color: #6a5acd; /* Slate Blue */
+    background-color: #9370db; /* Medium Purple */
     font-size: 1.2em;
 }
 
 .news-item.container-6 {
-    background-color: #20b2aa; /* Light Sea Green */
-    font-size: 1.2em;
-}
-.news-item.container-10 {
-    background-color: #00fa9a; /* Medium Spring Green */
+    background-color: #48d1cc; /* Medium Turquoise */
     font-size: 1.2em;
 }
 
 .news-item.container-7 {
-    background-color: #ffb6c1; /* Light Pink */
+    background-color: #ff69b4; /* Hot Pink */
     font-size: 1.2em;
 }
 
 .news-item.container-8 {
-    background-color: #adff2f; /* Green Yellow */
+    background-color: #9acd32; /* Yellow Green */
     font-size: 1.2em;
 }
 
 .news-item.container-9 {
-    background-color: #f08080; /* Light Coral */
+    background-color: #fa8072; /* Salmon */
     font-size: 1.2em;
 }
+
+.news-item.container-10 {
+    background-color: #7fff00; /* Chartreuse */
+    font-size: 1.2em;
+}
+
+.news-item.container-11 {
+    background-color: #cd5c5c; /* Indian Red */
+    font-size: 1.2em;
+}
+.news-item.container-12 {
+    background-color: #8fbc8f; 
+    font-size: 1.2em;
+}
+
+
 
 
 

@@ -72,6 +72,7 @@ async function fetchNewsDetail(id) {
       "sports",
       "technology",
       "wellness_and_health",
+      "political_events",
     ];
 
     for (const collection of collections) {

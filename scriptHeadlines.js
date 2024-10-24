@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "worlds_future_scope",
     "bhutanese_future_scope",
     "archaeology_and_history",
+    "political_events",
   ]);
 });
 
