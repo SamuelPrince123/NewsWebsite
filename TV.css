@@ -1,0 +1,115 @@
+/* TV.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    position: relative; /* For nav positioning */
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.back-link {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-link:hover {
+    background-color: #555; /* Hover effect for the back link */
+}
+
+main {
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px; /* Max width for the main content */
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three videos per row */
+    gap: 20px;
+}
+
+/* Video card styles for consistency */
+.video-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Ensures the border radius applies correctly */
+    text-align: center; /* Center-align title and image */
+    transition: transform 0.2s; /* Add a hover effect */
+}
+
+.video-card:hover {
+    transform: scale(1.02); /* Scale up on hover */
+}
+
+.video-frame {
+    width: 100%;
+    height: 200px; /* Consistent height for all video frames */
+    border: none;
+}
+
+/* Styles for video thumbnails */
+.video-thumbnail {
+    width: 100%; /* Full width for thumbnail images */
+    height: 200px; /* Consistent height */
+    object-fit: cover; /* Cover to maintain aspect ratio */
+    border-bottom: 2px solid #4CAF50; /* Border for separation */
+}
+
+.video-title {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+    .video-grid {
+        grid-template-columns: repeat(2, 1fr); /* Two videos per row on medium screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .video-grid {
+        grid-template-columns: 1fr; /* One video per row on small screens */
+    }
+
+    .video-frame {
+        height: 150px; /* Adjust height for smaller screens */
+    }
+
+    .video-thumbnail {
+        height: 150px; /* Adjust thumbnail height */
+    }
+}
