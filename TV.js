@@ -1,48 +1,70 @@
 const videoData = {
   comedy: [
     {
-      title: "Channel 1",
+      title: "LOL! Stand Up ",
       url: "https://www.youtube.com/watch?v=ctyzvJLoid0",
-    },
-    {
-      title: "Channel 2",
-      url: "https://www.youtube.com/watch?v=37-X4eYGOFY",
-    },
-    {
-      title: "Channel 3",
-      url: "https://www.youtube.com/watch?v=uTMc48XmjrA",
-      image: "https://img.youtube.com/vi/uTMc48XmjrA/0.jpg",
-    },
-    {
-      title: "Channel 4",
-      url: "https://www.youtube.com/@shemaroobollywoodcomedy",
-      image:
-        "https://yt3.googleusercontent.com/kFIm8K_VJqJKFBt8ePn-wVIvG0ZYeIQxw7Ok9eEkYjOSsyebG7wStrOQOcv4GDtbd6Y4zZa9oo0=s160-c-k-c0x00ffffff-no-rj", // Thumbnail image
-    },
-    {
-      title: "Channel 5",
-      url: "https://www.youtube.com/watch?v=XRyFg1JKZGM",
-    },
-    {
-      title: "Channel 6",
-      url: "https://www.ustvnow.com/channel/live/the_red_green_channel",
-      image: "./NewsImage/redgreen.png",
     },
     {
       title: "comedy Time(UAS)",
       url: "http://www.freeintertv.com/view/id-1756/1-Entertainment-2-1?chname=comedy&findch=1",
       image: "./NewsImage/comedyusa.jpg",
     },
+
+    {
+      title: "Classic Mr Bean LIVE! | Full Episodes",
+      url: "https://www.youtube.com/watch?v=uTMc48XmjrA",
+      image: "https://img.youtube.com/vi/uTMc48XmjrA/0.jpg",
+    },
+    {
+      title: "Shemaroo Comedy",
+      url: "https://www.youtube.com/@shemaroobollywoodcomedy",
+      image:
+        "https://yt3.googleusercontent.com/kFIm8K_VJqJKFBt8ePn-wVIvG0ZYeIQxw7Ok9eEkYjOSsyebG7wStrOQOcv4GDtbd6Y4zZa9oo0=s160-c-k-c0x00ffffff-no-rj", // Thumbnail image
+    },
+    {
+      title: "Dry Bar Comedy TV",
+      url: "https://www.youtube.com/watch?v=XRyFg1JKZGM",
+    },
+    {
+      title: "The red green channel",
+      url: "https://www.ustvnow.com/channel/live/the_red_green_channel",
+      image: "./NewsImage/redgreen.png",
+    },
+    {
+      title: "Chocolate Sundaes 2",
+      url: "https://www.youtube.com/watch?v=37-X4eYGOFY",
+    },
+
     {
       title: "TBS(USA)",
       url: "http://www.freeintertv.com/view/id-2685/1-1-2-1?chname=tbs&findch=1",
       image: "./NewsImage/tbs.jpg",
     },
+    {
+      title: "TBD TV",
+      url: "https://tbd.com/watch-live/",
+      image: "./NewsImage/tbd.png",
+    },
+    {
+      title: "FailArmy",
+      url: "https://www.failarmy.com/pages/streaming",
+      image: "./NewsImage/failarmy.jpg",
+    },
   ],
   cartoon: [
     {
+      title: "Cartoon Network(USA)",
+      url: "http://www.freeintertv.com/view/id-2958/1-1-2-1?chname=cartoon&findch=1",
+      image: "./NewsImage/cartoon Network.png",
+    },
+    {
       title: "Tom and Jerry",
       url: "https://www.youtube.com/watch?v=IJbbpAhjboI",
+    },
+    {
+      title: "ToonGoggles",
+      url: "https://www.toongoggles.com/",
+      image: "./NewsImage/toongoogles.jpg",
     },
     {
       title: "Scooby Doo",
@@ -54,9 +76,9 @@ const videoData = {
       image: "./NewsImage/british cartoon.jpg",
     },
     {
-      title: "Cartoon Network(USA)",
-      url: "http://www.freeintertv.com/view/id-2958/1-1-2-1?chname=cartoon&findch=1",
-      image: "./NewsImage/cartoon Network.png",
+      title: "Mango TV",
+      url: "https://live.mgtv.com/",
+      image: "./NewsImage/mangotv.jpg",
     },
 
     {
@@ -68,14 +90,19 @@ const videoData = {
       url: "https://www.youtube.com/watch?v=6el-GMyskPI",
     },
     {
+      title: "Disney(USA)",
+      url: "http://www.freeintertv.com/view/id-2292/1-1-2-1?chname=disney&findch=1",
+      image: "./NewsImage/disney.jpg",
+    },
+    {
       title: "Baby Looney",
       url: "https://www.youtube.com/watch?v=p5l3ZS1jVUE",
     },
 
     {
-      title: "Disney(USA)",
-      url: "http://www.freeintertv.com/view/id-2292/1-1-2-1?chname=disney&findch=1",
-      image: "./NewsImage/disney.jpg",
+      title: "gulli tv",
+      url: "https://replay.gulli.fr/Direct",
+      image: "./NewsImage/gulli.jpg",
     },
     {
       title: "Disney Channel +1(UK)",
@@ -83,13 +110,18 @@ const videoData = {
       image: "./NewsImage/disneyC.png",
     },
     {
-      title: "Disney Channel Mobile(USA)",
-      url: "http://www.freeintertv.com/view/id-2674/1-1-2-1?chname=disney&findch=1",
-      image: "./NewsImage/disneyCh.jpg",
+      title: "Guangdong TV(China)",
+      url: "https://www.gdtv.cn/tvChannelDetail/43",
+      image: "./NewsImage/guangdong.jpg",
     },
     {
       title: "Sesame Street",
       url: "https://www.youtube.com/watch?v=2UNZ82_Amy0",
+    },
+    {
+      title: "Disney Channel Mobile(USA)",
+      url: "http://www.freeintertv.com/view/id-2674/1-1-2-1?chname=disney&findch=1",
+      image: "./NewsImage/disneyCh.jpg",
     },
   ],
   information: [
@@ -98,9 +130,44 @@ const videoData = {
       url: "https://www.youtube.com/watch?v=CvdS4biecPk",
     },
     {
+      title: "CBS8",
+      url: "https://www.cbs8.com/watch",
+      image: "./NewsImage/CBS8.jpg",
+    },
+    {
+      title: "YTA TV",
+      url: "https://ytatv.com/watch-live/",
+      image: "./NewsImage/ytatv.jpg",
+    },
+    {
+      title: "Southeastern Channel",
+      url: "https://thesoutheasternchannel.com/live-stream/",
+      image: "./NewsImage/southeastern.png",
+    },
+    {
+      title: "San Diego CityTV",
+      url: "https://sandiego.granicus.com/player/camera/5?&redirect=true",
+      image: "./NewsImage/san diago city tv.jpg",
+    },
+    {
+      title: "REVN TV",
+      url: "https://www.revntv.com/livestream",
+      image: "./NewsImage/revntv.jpg",
+    },
+    {
+      title: "Lake Tahoe",
+      url: "https://cdn.jwplayer.com/players/CBKDv4i5-SFo5BEkp.html",
+      image: "./NewsImage/laketoe.jpg",
+    },
+    {
       title: "History Channel(USA)",
       url: "http://www.freeintertv.com/view/id-3301/1-1-0-1",
       image: "./NewsImage/history.jpg",
+    },
+    {
+      title: "Fox Soul",
+      url: "https://foxsoul.tv/",
+      image: "./NewsImage/foxsoul.jpg",
     },
 
     {
@@ -108,10 +175,20 @@ const videoData = {
       url: "https://www.youtube.com/watch?v=BJ3Yv572V1A",
     },
     {
-      title: "Channel 3",
+      title: "Discovery Channel India",
       url: "https://www.youtube.com/@DiscoverychannelInd",
       image:
         "https://yt3.googleusercontent.com/drkHGsfyzC-I3sqZTES2MaL52jwYvHPJHD2W1DidmpcLSS-cpEMPLjlSVwCKpXT_P01tt3jVNw=s160-c-k-c0x00ffffff-no-rj",
+    },
+    {
+      title: "The Knowledge Network-1",
+      url: "https://reflect-tkn.cablecast.tv/cablecastapi/live?channel_id=1&use_cdn=true",
+      image: "./NewsImage/tkn.png",
+    },
+    {
+      title: "The Knowledge Network-2",
+      url: "https://reflect-tkn.cablecast.tv/cablecastapi/live?channel_id=2&use_cdn=true",
+      image: "./NewsImage/tkn.png",
     },
     {
       title: "Discovery HD(USA)",
@@ -119,9 +196,24 @@ const videoData = {
       image: "./NewsImage/discovery.jpg",
     },
     {
+      title: "Right Now TV",
+      url: "https://www.rightnowtelevision.com/watch-live/",
+      image: "./NewsImage/rightNow.jpg",
+    },
+    {
       title: "Global Fashion Channel",
       url: "https://www.ustvnow.com/channel/live/global_fashion_channel",
       image: "./NewsImage/globalFashion.jpg",
+    },
+    {
+      title: "Persiana Science",
+      url: "https://www.persianagroup.tv/live/persiana-science",
+      image: "./NewsImage/persianatv.jpg",
+    },
+    {
+      title: "Mississippi State University",
+      url: "https://www.utc.msstate.edu/mstv",
+      image: "./NewsImage/missipi.png",
     },
   ],
   sports: [
@@ -163,9 +255,19 @@ const videoData = {
       image: "./NewsImage/hbo.png",
     },
     {
+      title: "CBS Entertainment",
+      url: "https://www.cbsnews.com/live/mixible/",
+      image: "./NewsImage/cbs ent.png",
+    },
+    {
       title: "TNT HD (Brazil)",
       url: "http://www.freeintertv.com/view/id-3041/1-1-2-1?chname=tnt&findch=1",
       image: "./NewsImage/tnt.jpg",
+    },
+    {
+      title: "Get After It Media",
+      url: "https://www.getafteritmedia.com/retro-live-feed",
+      image: "./NewsImage/getafterit.jpg",
     },
     {
       title: "9xM",
@@ -173,9 +275,19 @@ const videoData = {
       image: "./NewsImage/9xm.png",
     },
     {
+      title: "Wu tang Collection",
+      url: "https://www.thewutangcollection.com/",
+      image: "./NewsImage/wutang.jpg",
+    },
+    {
       title: "Bollywood for you",
       url: "http://www.freeintertv.com/view/id-2318/1-1-2-1?chname=bollywood&findch=1",
       image: "./NewsImage/bollywood.jpg",
+    },
+    {
+      title: "Classic Art Showcase",
+      url: "https://www.classicartsshowcase.org/watch-classic-arts-showcase/",
+      image: "./NewsImage/classic art.png",
     },
     {
       title: "The Vintage Movie Channel",
