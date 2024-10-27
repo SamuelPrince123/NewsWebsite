@@ -5,9 +5,14 @@ const videoData = {
       url: "https://www.youtube.com/watch?v=ctyzvJLoid0",
     },
     {
-      title: "comedy Time(UAS)",
+      title: "comedy Time(USA)",
       url: "http://www.freeintertv.com/view/id-1756/1-Entertainment-2-1?chname=comedy&findch=1",
       image: "./NewsImage/comedyusa.jpg",
+    },
+    {
+      title: "Jupiter TV",
+      url: "https://www.yupptv.com/fast-tv/jupiter-tv/live",
+      image: "./NewsImage/jupiter.png",
     },
 
     {
@@ -24,6 +29,11 @@ const videoData = {
     {
       title: "Dry Bar Comedy TV",
       url: "https://www.youtube.com/watch?v=XRyFg1JKZGM",
+    },
+    {
+      title: "Plex Comedy",
+      url: "https://watch.plex.tv/en-GB/live-tv/category/comedy",
+      image: "./NewsImage/plex.jpg",
     },
     {
       title: "The red green channel",
@@ -53,8 +63,8 @@ const videoData = {
   ],
   cartoon: [
     {
-      title: "Cartoon Network(USA)",
-      url: "http://www.freeintertv.com/view/id-2958/1-1-2-1?chname=cartoon&findch=1",
+      title: "Cartoon Network",
+      url: "https://vipotv.com/cartoon-network/",
       image: "./NewsImage/cartoon Network.png",
     },
     {
@@ -74,6 +84,16 @@ const videoData = {
       title: "BME Cartoon (UK).",
       url: "http://www.freeintertv.com/view/id-1854/1-1-2-1?chname=cartoon&findch=1",
       image: "./NewsImage/british cartoon.jpg",
+    },
+    {
+      title: "babyfirst",
+      url: "https://www.yupptv.com/fast-tv/babyfirst/live",
+      image: "./NewsImage/babyfirst.png",
+    },
+    {
+      title: "kiddo",
+      url: "https://www.yupptv.com/fast-tv/kiddo/live",
+      image: "./NewsImage/kiddo.png",
     },
     {
       title: "Mango TV",
@@ -103,6 +123,11 @@ const videoData = {
       title: "gulli tv",
       url: "https://replay.gulli.fr/Direct",
       image: "./NewsImage/gulli.jpg",
+    },
+    {
+      title: "Cartoon Classic",
+      url: "https://www.yupptv.com/fast-tv/cartoon-tv-classics/live",
+      image: "./NewsImage/cartoon classic.png",
     },
     {
       title: "Disney Channel +1(UK)",
@@ -135,9 +160,34 @@ const videoData = {
       image: "./NewsImage/CBS8.jpg",
     },
     {
+      title: "Scientific World",
+      url: "https://www.yupptv.com/fast-tv/scifi-world/live",
+      image: "./NewsImage/scientific world.png",
+    },
+    {
       title: "YTA TV",
       url: "https://ytatv.com/watch-live/",
       image: "./NewsImage/ytatv.jpg",
+    },
+    {
+      title: "The Explorers",
+      url: "https://www.yupptv.com/fast-tv/the-explorers1/live",
+      image: "./NewsImage/theexplorers.png",
+    },
+    {
+      title: "Heritage Tourism TV",
+      url: "https://www.yupptv.com/fast-tv/heritage-tourism-tv/live",
+      image: "./NewsImage/heritage.png",
+    },
+    {
+      title: "Heritage",
+      url: "https://www.yupptv.com/fast-tv/heritage/live",
+      image: "./NewsImage/heritage+.png",
+    },
+    {
+      title: "4K Travel TV",
+      url: "https://www.yupptv.com/fast-tv/4k-travel-tv-/live",
+      image: "./NewsImage/4kTravel.png",
     },
     {
       title: "Southeastern Channel",
@@ -158,6 +208,11 @@ const videoData = {
       title: "Lake Tahoe",
       url: "https://cdn.jwplayer.com/players/CBKDv4i5-SFo5BEkp.html",
       image: "./NewsImage/laketoe.jpg",
+    },
+    {
+      title: "SEA Today",
+      url: "https://seatoday.com/tv",
+      image: "./NewsImage/seatoday.jpg",
     },
     {
       title: "History Channel(USA)",
@@ -206,6 +261,11 @@ const videoData = {
       image: "./NewsImage/globalFashion.jpg",
     },
     {
+      title: "Love 2 Hate TV",
+      url: "https://www.yupptv.com/fast-tv/love-2-hate-tv/live",
+      image: "./NewsImage/Love2hatetv.png",
+    },
+    {
       title: "Persiana Science",
       url: "https://www.persianagroup.tv/live/persiana-science",
       image: "./NewsImage/persianatv.jpg",
@@ -218,9 +278,90 @@ const videoData = {
   ],
   sports: [
     {
+      title: "Sky Sports Football",
+      url: "https://crichdplayer.com/sky-sports-football-live-stream-play2",
+      image: "./NewsImage/44.jpg",
+    },
+    {
+      title: "Sky Sports Cricket",
+      url: "https://crichdplayer.com/sky-sports-cricket-live-stream-me",
+      image: "./NewsImage/1.png",
+    },
+    {
+      title: "Sky Sports Main Events",
+      url: "https://crichdplayer.com/sky-sports-main-event-live-stream-play2",
+      image: "./NewsImage/2.jpg",
+    },
+    {
+      title: "Sky Sports Actions",
+      url: "https://crichdplayer.com/sky-sports-action-live-stream-play",
+      image: "./NewsImage/3.png",
+    },
+    {
+      title: "Sky Sports",
+      url: "https://crichdplayer.com/sky-sports-premier-league-live-stream-play2",
+      image: "./NewsImage/6.jpg",
+    },
+    {
+      title: "Sports TNT 1",
+      url: "https://crichdplayer.com/tnt-sports-1-live-stream-uk",
+      image: "./NewsImage/10.gif",
+    },
+    {
+      title: "Sports TNT 2",
+      url: "https://crichdplayer.com/tnt-sports-2-live-stream-uk",
+      image: "./NewsImage/11.gif",
+    },
+    {
+      title: "Sports TNT 3",
+      url: "https://crichdplayer.com/tnt-sports-3-live-stream-uk",
+      image: "./NewsImage/12.gif",
+    },
+    {
+      title: "Sports TNT 4",
+      url: "https://crichdplayer.com/tnt-sports-4-live-stream-uk",
+      image: "./NewsImage/13.gif",
+    },
+    {
+      title: "ESPN US",
+      url: "https://crichdplayer.com/espn-us-live-stream",
+      image: "./NewsImage/espn.png",
+    },
+    {
+      title: "ESPN2 US",
+      url: "https://crichdplayer.com/espn-2-us-live-stream",
+      image: "./NewsImage/foxsoccer.jpg",
+    },
+    {
+      title: "Sky Sports F1",
+      url: "https://crichdplayer.com/sky-sports-f1-live-streaming-s400",
+      image: "./NewsImage/sky sports f1.png",
+    },
+    {
+      title: "Sky Sports F1",
+      url: "https://crichdplayer.com/sky-sports-f1-live-streaming-s400",
+      image: "./NewsImage/sky sports f1.png",
+    },
+    {
       title: "Fox Scocer(USA)",
       url: "http://www.freeintertv.com/view/id-3315/1-1-0-1",
       image: "./NewsImage/foxsoccer.jpg",
+    },
+    {
+      title: "Tennis",
+      url: "https://vipotv.com/the-tennis-channel/",
+      image: "./NewsImage/Tennis-Channel.png",
+    },
+    {
+      title: "Yahoo Sports",
+      url: "https://sports.yahoo.com/videos/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuc3F1aWR0di5uZXQv&guce_referrer_sig=AQAAAAA5bc4s2Tvo_DTv4u0xDMF05aW9VxSPn7DHBAyZOGlE7gtMOuap2i9zuyAWf52R3BvKuf5klDF20I4-oFW33vopipcN4t_6nVPy7YdUJRpucUPCrk0OmuOfy2c7SZ5sm_M5Id7--zyVbmHag9eVbyvu2SxgNFd1aPW_4nc6Z9mc",
+      image: "./NewsImage/yahooSports.jpg",
+    },
+
+    {
+      title: "The Ariel Helwani Show",
+      url: "https://sports.yahoo.com/videos/shows/ariel-helwani-show/",
+      image: "./NewsImage/theariel.jpg",
     },
     {
       title: "Bein Sports(USA)",
@@ -228,9 +369,31 @@ const videoData = {
       image: "./NewsImage/beinsports.jpg",
     },
     {
+      title: "Live Football Streams",
+      url: "https://www.youtube.com/@LFStreams/streams",
+      image: "./NewsImage/lfs.jpg",
+    },
+    {
+      title: "Channels Television",
+      url: "https://www.channelstv.com/live",
+      image: "./NewsImage/channelstelevision.jpg",
+    },
+
+    {
       title: "Star Sports (India)",
       url: "http://www.freeintertv.com/view/id-1800/1-1-2-1?chname=sports&findch=1",
       image: "./NewsImage/starSports.jpg",
+    },
+    {
+      title: "Plex Sports",
+      url: "https://watch.plex.tv/en-GB/live-tv/category/sports",
+      image: "./NewsImage/plex.jpg",
+    },
+
+    {
+      title: "TVRI Sports HD",
+      url: "https://klik.tvri.go.id/detailchannel/TVRI_CH_03",
+      image: "./NewsImage/tvri.jpg",
     },
     {
       title: "Amysports(Mexico)",
@@ -238,27 +401,68 @@ const videoData = {
       image: "./NewsImage/amysports.jpg",
     },
     {
+      title: "Fight TV",
+      url: "https://www.yupptv.com/fast-tv/fight-tv/live",
+      image: "./NewsImage/fight tv.jpg",
+    },
+    {
+      title: "Kozoom",
+      url: "https://www.yupptv.com/fast-tv/kozoom/live",
+      image: "./NewsImage/kozoom.jpg",
+    },
+    {
       title: "CBS Sports (Canada)",
       url: "http://www.freeintertv.com/view/id-310/1-1-2-1?chname=sports&findch=1",
       image: "./NewsImage/cbs sports.jpg",
     },
     {
-      title: "Universal Sports",
+      title: "Chrono TV",
+      url: "https://www.yupptv.com/fast-tv/chronotv/live",
+      image: "./NewsImage/chrono tv.png",
+    },
+    {
+      title: "Kozoom",
+      url: "https://www.yupptv.com/fast-tv/kozoom/live",
+      image: "./NewsImage/kozoom.jpg",
+    },
+    {
+      title: "Universal Sports (USA)",
       url: "http://www.freeintertv.com/view/id-3116/1-1-2-1?chname=sports&findch=1",
       image: "./NewsImage/universalSports.jpg",
+    },
+    {
+      title: "Racing.com",
+      url: "https://vipotv.com/racing-tv/",
+      image: "./NewsImage/racing-com-vipotv.png",
     },
   ],
   movies: [
     {
-      title: "HBO(USA)",
-      url: "http://www.freeintertv.com/view/id-1849",
-      image: "./NewsImage/hbo.png",
+      title: "MITV",
+      url: "https://www.myanmaritv.com/mitv-live",
+      image: "./NewsImage/mitv.png",
     },
     {
       title: "CBS Entertainment",
       url: "https://www.cbsnews.com/live/mixible/",
       image: "./NewsImage/cbs ent.png",
     },
+    {
+      title: "HBO(USA)",
+      url: "http://www.freeintertv.com/view/id-1849",
+      image: "./NewsImage/hbo.png",
+    },
+    {
+      title: "Hit TV",
+      url: "https://watch.plex.tv/en-GB/live-tv/category/entertainment",
+      image: "./NewsImage/plex.jpg",
+    },
+    {
+      title: "True Crime",
+      url: "https://watch.plex.tv/en-GB/live-tv/category/crime",
+      image: "./NewsImage/plex.jpg",
+    },
+
     {
       title: "TNT HD (Brazil)",
       url: "http://www.freeintertv.com/view/id-3041/1-1-2-1?chname=tnt&findch=1",
@@ -270,6 +474,11 @@ const videoData = {
       image: "./NewsImage/getafterit.jpg",
     },
     {
+      title: "Plex Movies",
+      url: "https://watch.plex.tv/en-GB/live-tv/category/movies",
+      image: "./NewsImage/plex.jpg",
+    },
+    {
       title: "9xM",
       url: "http://www.freeintertv.com/view/id-3357/1-1-0-1",
       image: "./NewsImage/9xm.png",
@@ -279,6 +488,12 @@ const videoData = {
       url: "https://www.thewutangcollection.com/",
       image: "./NewsImage/wutang.jpg",
     },
+    {
+      title: "Plex Chills and Thrills",
+      url: "https://watch.plex.tv/en-GB/live-tv/category/thriller",
+      image: "./NewsImage/plex.jpg",
+    },
+
     {
       title: "Bollywood for you",
       url: "http://www.freeintertv.com/view/id-2318/1-1-2-1?chname=bollywood&findch=1",
@@ -295,9 +510,25 @@ const videoData = {
       image: "./NewsImage/vintage.jpg",
     },
     {
+      title: "Encore",
+      url: "https://www.yupptv.com/fast-tv/encore/live",
+      image: "./NewsImage/encore.png",
+    },
+    {
+      title: "Bang Bang",
+      url: "https://www.yupptv.com/fast-tv/bang-bang-tv/live",
+      image: "./NewsImage/Bang.png",
+    },
+
+    {
       title: "Movies for you(USA)",
       url: "http://www.freeintertv.com/view/id-3344/1-1-0-1",
       image: "./NewsImage/movies.jpg",
+    },
+    {
+      title: "Cowboy Movie Channel",
+      url: "https://www.yupptv.com/fast-tv/cowboy-movie-channel/live",
+      image: "./NewsImage/cowboy movie.png",
     },
     {
       title: "New Movies(USA)",
@@ -309,11 +540,21 @@ const videoData = {
       url: "http://www.freeintertv.com/view/id-3302/1-1-0-1",
       image: "./NewsImage/shottime.png",
     },
+    {
+      title: "RedBull",
+      url: "https://vipotv.com/red-bull-tv/",
+      image: "./NewsImage/redbulltv-vipotv.png",
+    },
 
     {
       title: "Disney Movies Channel(USA)",
       url: "http://www.freeintertv.com/view/id-3028/1-1-2-1?chname=disney&findch=1",
       image: "./NewsImage/disneyM.jpg",
+    },
+    {
+      title: "Thirty-Mile-Zone",
+      url: "https://vipotv.com/tmz-sports/",
+      image: "./NewsImage/tmz-sports-live-vipotv-america.png",
     },
     {
       title: "ABC Classic Flims(USA)",
@@ -338,6 +579,11 @@ const videoData = {
       image: "./NewsImage/spirit TV.jpg",
     },
     {
+      title: "3OA TV Music",
+      url: "https://vipotv.com/30a-tv-music/",
+      image: "./NewsImage/30A-TV-Music-Channel-live-vipotv.png",
+    },
+    {
       title: "The Country Network",
       url: "https://watch.tcncountry.net/m/3v1Qptug/tcn-live?r=0XOn5zn0&play=1",
       image: "./NewsImage/tcnet.jpg",
@@ -354,7 +600,7 @@ const videoData = {
     },
     {
       title: "Ditty TV",
-      url: "https://dittytv.com/watch/",
+      url: "https://vipotv.com/ditty-music/",
       image: "./NewsImage/dittytv.jpg",
     },
     {
@@ -363,9 +609,24 @@ const videoData = {
       image: "./NewsImage/indi music.png",
     },
     {
+      title: "THE K-POP",
+      url: "https://vipotv.com/the-k-pop/",
+      image: "./NewsImage/the-k-pop-live-vipotv-korean.png",
+    },
+    {
+      title: "V2BEAT POP",
+      url: "https://vipotv.com/v2beat-pop-tv/",
+      image: "./NewsImage/v2beat-v2-vipotv.png",
+    },
+    {
       title: "Best Music TV (USA)",
       url: "http://www.freeintertv.com/view/id-1761/1-1-2-1?chname=music&findch=1",
       image: "./NewsImage/best.gif",
+    },
+    {
+      title: "Nashville Country Music",
+      url: "https://vipotv.com/nashville-country-music/",
+      image: "./NewsImage/Nashville-Country-Music-live-vipotv-america.png",
     },
   ],
 };

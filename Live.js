@@ -52,6 +52,11 @@ const videoData = [
     imageUrl: "./NewsImage/arirang.jpg", // Local image path
   },
   {
+    url: "https://watch.plex.tv/en-GB/live-tv/category/news", // CNN Channel URL
+    title: "Plex News",
+    imageUrl: "./NewsImage/plex.jpg", // Local image path
+  },
+  {
     url: "https://www.youtube.com/@channelnewsasia", // CNN Channel URL
     title: "CNA",
     imageUrl: "./NewsImage/cna.jpg", // Local image path
@@ -80,6 +85,11 @@ const videoData = [
     url: "https://www.youtube.com/@msnbc", // CNN Channel URL
     title: "MSNBC",
     imageUrl: "./NewsImage/msnbc.png", // Local image path
+  },
+  {
+    url: "https://www.yupptv.com/fast-tv/republic-tv/live", // CNN Channel URL
+    title: "Republic TV",
+    imageUrl: "./NewsImage/republictv.jpg", // Local image path
   },
   {
     url: "https://www.youtube.com/@SkyNews", // CNN Channel URL
