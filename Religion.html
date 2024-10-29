@@ -1,14 +1,14 @@
-<!-- index.html -->
+<!-- technology.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TV Channel</title>
+    <title>Movies</title>
     <link rel="stylesheet" href="styless.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="TVC.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="TVC.css">
   
     <style>
         /* Loading spinner styles */
@@ -73,7 +73,7 @@
       </style>
 </head>
 <body>
-
+     
     <header>
         <div class="toggle-menu" id="toggleMenu">☰</div> <!-- Slide Toggle Icon -->
         <nav id="mobileNav" class="mobile-nav">
@@ -93,50 +93,40 @@
         </nav>
       </header>
 
-    <header>
-    </header>
-    <main>
-        <section class="categories">
-            <h2>Categories</h2>
-            <div id="loadingIndicator">
-                <div class="spinner"></div>
-              </div>
-            <div class="category-container">
-                <a href="comedy.html" class="category">Comedy</a>
-                <a href="cartoon.html" class="category">Cartoon</a>
-                <a href="information.html" class="category">Information</a>
-                <a href="sportss.html" class="category">Sports</a>
-                <a href="movies.html" class="category">Movies</a>
-                <a href="musics.html" class="category">Musics Videos</a>
-                
-                <!-- Add more categories as needed -->
-            </div>
-        </section>
-    </main>
+        <nav>
+            <a href="TV.html" class="back-link">Back to Categories</a>
+        </nav>
     
-  <footer>
-    <p>© 2024 News Website. All rights reserved.</p>
-    <!-- Facebook Icon -->
-    <div class="social-icons">
-      <p class="pp">Follow us here :</p>
-      <a href="https://www.facebook.com/profile.php?id=61566709991254" target="_blank" aria-label="Facebook Group">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-    </div>
-  </footer>
-
-  <script>
-    window.addEventListener("scroll", function() {
-      const footer = document.querySelector("footer");
-      if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
-        footer.classList.add("show-footer");
-      }
-    });
-  </script>
-   </script>
-
-   <!-- JavaScript file for archaeology functionality -->
-   <script type="module" src="scriptArchaeology.js"></script>
-
+    <main>
+        <section id="video-container" class="video-grid"></section>
+    </main>
+    <footer>
+        <p>© 2024 News Website. All rights reserved.</p>
+        <!-- Facebook Icon -->
+        <div class="social-icons">
+          <p class="pp">Follow us here :</p>
+          <a href="https://www.facebook.com/profile.php?id=61566709991254" target="_blank" aria-label="Facebook Group">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </footer>
+    
+      <script>
+        window.addEventListener("scroll", function() {
+          const footer = document.querySelector("footer");
+          if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
+            footer.classList.add("show-footer");
+          }
+        });
+      </script>
+       </script>
+    
+       <!-- JavaScript file for archaeology functionality -->
+       <script type="module" src="scriptArchaeology.js"></script>
+    <script src="TV.js"></script>
+    <script>
+        // Load videos for the 'Comedy' category
+        loadVideos('religion');
+    </script>
 </body>
 </html>

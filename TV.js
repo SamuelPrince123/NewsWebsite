@@ -68,8 +68,38 @@ const videoData = {
       image: "./NewsImage/cartoon Network.png",
     },
     {
+      title: "TopCartoonsTV",
+      url: "https://www.topcartoons.tv/serie/",
+      image: "./NewsImage/TopCartoons.png",
+    },
+    {
+      title: "Super Cartoons",
+      url: "https://www.supercartoons.net/",
+      image: "./NewsImage/supercartoons.png",
+    },
+    {
+      title: "Kim Cartoon",
+      url: "https://kimcartoon.com.co/",
+      image: "./NewsImage/kimcartoon.png",
+    },
+    {
       title: "Tom and Jerry",
       url: "https://www.youtube.com/watch?v=IJbbpAhjboI",
+    },
+    {
+      title: "WcoFun",
+      url: "https://wcofun.watch/wcofun/",
+      image: "./NewsImage/wcofun.png",
+    },
+    {
+      title: "AnimeFreak",
+      url: "https://animefreak.my/",
+      image: "./NewsImage/animifreak.png",
+    },
+    {
+      title: "Gogoanime",
+      url: "https://gogoanime.by/",
+      image: "./NewsImage/gogoanime.png",
     },
     {
       title: "ToonGoggles",
@@ -78,7 +108,7 @@ const videoData = {
     },
     {
       title: "Scooby Doo",
-      url: "https://www.youtube.com/watch?v=nhOelNSvWN4",
+      url: "https://www.youtube.com/watch?v=aFRjBNcagCY",
     },
     {
       title: "BME Cartoon (UK).",
@@ -120,11 +150,6 @@ const videoData = {
     },
 
     {
-      title: "gulli tv",
-      url: "https://replay.gulli.fr/Direct",
-      image: "./NewsImage/gulli.jpg",
-    },
-    {
       title: "Cartoon Classic",
       url: "https://www.yupptv.com/fast-tv/cartoon-tv-classics/live",
       image: "./NewsImage/cartoon classic.png",
@@ -133,11 +158,6 @@ const videoData = {
       title: "Disney Channel +1(UK)",
       url: "http://www.freeintertv.com/view/id-224/1-1-2-1?chname=disney&findch=1",
       image: "./NewsImage/disneyC.png",
-    },
-    {
-      title: "Guangdong TV(China)",
-      url: "https://www.gdtv.cn/tvChannelDetail/43",
-      image: "./NewsImage/guangdong.jpg",
     },
     {
       title: "Sesame Street",
@@ -266,10 +286,16 @@ const videoData = {
       image: "./NewsImage/Love2hatetv.png",
     },
     {
+      title: "Gospel TV",
+      url: "https://www.gtntv.com/",
+      image: "./NewsImage/awmi.jpg",
+    },
+    {
       title: "Persiana Science",
       url: "https://www.persianagroup.tv/live/persiana-science",
       image: "./NewsImage/persianatv.jpg",
     },
+
     {
       title: "Mississippi State University",
       url: "https://www.utc.msstate.edu/mstv",
@@ -446,6 +472,31 @@ const videoData = {
       title: "CBS Entertainment",
       url: "https://www.cbsnews.com/live/mixible/",
       image: "./NewsImage/cbs ent.png",
+    },
+    {
+      title: "Tubi TV",
+      url: "https://tubitv.com/home",
+      image: "./NewsImage/tubi.jpg",
+    },
+    {
+      title: "StreamM4U",
+      url: "https://streamm4u.com.co/#",
+      image: "./NewsImage/streamM4U.png",
+    },
+    {
+      title: "ANDYDAY",
+      url: "https://actvid.rs/",
+      image: "./NewsImage/andyday.png",
+    },
+    {
+      title: "Actvid",
+      url: "https://actvid.rs/",
+      image: "./NewsImage/actvid.jpg",
+    },
+    {
+      title: "FMOVIES",
+      url: "https://fmovies2u.in/",
+      image: "./NewsImage/fmovies.png",
     },
     {
       title: "HBO(USA)",

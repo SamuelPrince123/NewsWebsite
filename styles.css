@@ -1,6 +1,6 @@
 /* General styles */
 body {
-  font-family: Arial, sans-serif;
+
   margin: 0;
   padding: 0;
   color: #333;
@@ -221,6 +221,7 @@ footer {
   margin: 10px 0;
   /* Add some spacing */
 }
+
 
 /* Read more styling */
 .read-more {
