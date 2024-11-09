@@ -34,17 +34,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Fetch only the latest world's future scope data from Firestore
 async function fetchLatestWorldsFutureScope() {
-  const contentDiv = document.getElementById("worldScopeContent");
+  const contentDiv = document.getElementById("bhutanScopeContent");
 
   if (!contentDiv) {
-    console.error("Container with ID 'worldScopeContent' not found.");
+    console.error("Container with ID 'bhutanScopeContent' not found.");
     return;
   }
 
   try {
     const querySnapshot = await getDocs(
       query(
-        collection(firestore, "worlds_future_scope"), // Collection name
+        collection(firestore, "bhutanese_future_scope"), // Collection name
         orderBy("timestamp", "desc"), // Order by timestamp in descending order (latest first)
         limit(1) // Limit to only 1 latest scope item
       )
@@ -55,7 +55,7 @@ async function fetchLatestWorldsFutureScope() {
       addWorldsFutureScope(data, contentDiv, doc.id);
     });
   } catch (error) {
-    console.error("Error fetching latest world's future scope:", error);
+    console.error("Error fetching latest bhutan's future scope:", error);
   }
 }
 
@@ -72,7 +72,7 @@ function addWorldsFutureScope(data, container, id) {
     <h3>${data.title}</h3>
     <img src="${data.imageUrl}" alt="Future Scope Image" class="scope-image">
     <p>${previewText}...</p>
-    <a href="headline-detail.html?id=${id}&category=worlds_future_scope" class="read-more">Read More</a>
+    <a href="headline-detail.html?id=${id}&category=bhutanese_future_scope" class="read-more">Read More</a>
   `;
 
   // Append to the container

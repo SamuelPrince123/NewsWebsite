@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movies</title>
+   
     <link rel="stylesheet" href="styless.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="TVC.css">
   
     <style>
@@ -38,18 +37,7 @@
           }
         }
           /* Footer Styles */
-      footer {
-        display: none;
-        position: relative;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-        padding: 10px;
-      }
-    
-      footer.show-footer {
-        display: block;
-      }
+   
     
       /* Other styles */
       body {
@@ -68,65 +56,32 @@
       .pp {
         margin-bottom: 5px;
       }
+            /* Horizontal Scroll Styles */
+      
     
         /* Add any additional styles you need here */
       </style>
 </head>
 <body>
-     
-    <header>
-        <div class="toggle-menu" id="toggleMenu">☰</div> <!-- Slide Toggle Icon -->
-        <nav id="mobileNav" class="mobile-nav">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Live.html">Live</a></li>
-            <li><a href="bhutanese-news.html">Bhutanese News</a></li>
-            <li><a href="bhutanese-jobs.html">Bhutanese Jobs</a></li>
-            <li><a href="bhutan-future-scope.html">Bhutan's Future Scope</a></li>
-            <li><a href="world-news.html">World News</a></li>
-            <li><a href="world-future-scope.html">World's Future Scope</a></li>
-            <li><a href="TV.html">TV Channel</a></li>
-            <li><a href="weather.html">Weather</a></li>
-            <li><a href="ads.html">Ads</a></li>
-            <li><a href="games.html">games</a></li>
-          </ul>
-        </nav>
-      </header>
 
-        <nav>
-            <a href="TV.html" class="back-link">Back to Categories</a>
-        </nav>
-    
+   
+      
+
     <main>
         <section id="video-container" class="video-grid"></section>
     </main>
-    <footer>
-        <p>© 2024 News Website. All rights reserved.</p>
-        <!-- Facebook Icon -->
-        <div class="social-icons">
-          <p class="pp">Follow us here :</p>
-          <a href="https://www.facebook.com/profile.php?id=61566709991254" target="_blank" aria-label="Facebook Group">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </div>
-      </footer>
+   
     
-      <script>
-        window.addEventListener("scroll", function() {
-          const footer = document.querySelector("footer");
-          if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
-            footer.classList.add("show-footer");
-          }
-        });
-      </script>
+    
        </script>
     
        <!-- JavaScript file for archaeology functionality -->
        <script type="module" src="scriptArchaeology.js"></script>
+    
     <script src="TV.js"></script>
     <script>
         // Load videos for the 'Comedy' category
-        loadVideos('religion');
+        loadVideos('comedy');
     </script>
 </body>
 </html>

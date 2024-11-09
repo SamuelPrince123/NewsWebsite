@@ -1,6 +1,5 @@
 /* General Body Styling */
 body {
-    font-family: Arial, sans-serif; /* Modern and readable font */
     line-height: 1.6; /* Improve readability */
     margin: 0;
     padding: 0;
@@ -29,7 +28,7 @@ header nav ul li {
 header nav ul li a {
     color: #fff; /* White text for links */
     text-decoration: none; /* Remove underline from links */
-    font-weight: bold; /* Bold text for links */
+     /* Bold text for links */
 }
 
 header nav ul li a:hover {
