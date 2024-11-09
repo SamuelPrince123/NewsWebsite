@@ -687,7 +687,7 @@ function convertToEmbedUrl(url) {
   if (urlObj.hostname.includes("youtube.com")) {
     const videoId = urlObj.searchParams.get("v");
     return videoId
-      ? `https://www.youtube.com/embed/${videoId}?autoplay=1&controls=1` // Ensure autoplay and controls are enabled
+      ? `https://www.youtube.com/embed/${videoId}?autoplay=1&controls=1&mute=1&enablejsapi=1` // Ensure autoplay, controls, mute, and API are enabled
       : null; // Return null if the video ID is not found
   }
   return url; // Return original URL if it's not a YouTube link
@@ -744,10 +744,12 @@ function loadVideos(category) {
   }
 }
 
-// Load comedy and cartoon videos by default
-loadVideos("comedy");
-loadVideos("cartoon");
-loadVideos("information");
-loadVideos("sports");
-loadVideos("movies");
-loadVideos("music");
+// Load videos by default
+["comedy", "cartoon", "information", "sports", "movies", "music"].forEach(
+  loadVideos
+);
+
+// Ensure YouTube IFrame API is ready
+function onYouTubeIframeAPIReady() {
+  // Add your logic here if needed
+}
